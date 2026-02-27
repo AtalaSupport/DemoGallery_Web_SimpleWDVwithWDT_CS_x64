@@ -19,7 +19,7 @@ This application as configured, requires at minimum DotImage Document Imaging as
 
 If you do not have  PdfReader license, you can adjust the app to not require it (and lose the ability to open PDFs) by modifying the WebDocViewerHandler.ashx codebehind. To do so, comment out the following line and rebuild:
 
-```
+```csharp
 RegisteredDecoders.Decoders.Add(new PdfDecoder() { Resolution = 200, RenderSettings = new RenderSettings() { AnnotationSettings = AnnotationRenderSettings.RenderNone } });
 ```
 
@@ -31,6 +31,7 @@ If you are using PDFs and you wish to burn annotations, you must also have a lic
 > You will need to use a sever license (a serial that has an X in the first group) activated for your machine if you wish to visit the server via any other URL ( such as http://yourMachineName/YourApp/ ).
 > 
 > Also note that running in a local copy of IIS (see below), you will need to place a valid license file/files for the components you're using into the application bin directory. This is not needed for using IIS Express as that picks up your Developer Licenses from their default location.  
+
 
 ## SDK Dependencies
 This app was built based on 11.5.0.10. It targets .NET Framework 4.6.2 and was created in Visual Studio 2022. However, it's fairly backward compatible as distributed. If you start adding references, you can run into issues if you're using an especially outdated version of DotImage. It should also open and run equally well in Visual Studio 2026 without undue modification.  
@@ -104,6 +105,7 @@ into the bin directory of the application
 
 Please see the section on licensing above for additional discussion.
 
+
 ## Cloning this repository
 To use this repro just use:  
 
@@ -120,6 +122,7 @@ In addition to this README, the Atalasoft documentation set includes the followi
     - [Atalasoft Support](http://www.atalasoft.com/support/)
     - [Atalasoft Knowledgebase](http://www.atalasoft.com/kb2)
 - [WDV Clientside API Reference](https://atalasoft.github.io/web-document-viewer/) applies to the client side (JavaScript) components.
+
 
 ## Getting Help for Atalasoft products
 Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.com/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
