@@ -19,8 +19,10 @@ This application as configured, requires at minimum DotImage Document Imaging as
 
 If you do not have  PdfReader license, you can adjust the app to not require it (and lose the ability to open PDFs) by modifying the WebDocViewerHandler.ashx codebehind. To do so, comment out the following line and rebuild:
 
-`RegisteredDecoders.Decoders.Add(new PdfDecoder() { Resolution = 200, RenderSettings = new RenderSettings() { AnnotationSettings = AnnotationRenderSettings.RenderNone } });
-`
+```
+RegisteredDecoders.Decoders.Add(new PdfDecoder() { Resolution = 200, RenderSettings = new RenderSettings() { AnnotationSettings = AnnotationRenderSettings.RenderNone } });
+```
+
 If you are using PDFs and you wish to burn annotations, you must also have a licnse for our DotPdf (separate from PdfReader), or a valid evaluation, or else saving with the burn flag true will fail.
 
 > **NOTE**
