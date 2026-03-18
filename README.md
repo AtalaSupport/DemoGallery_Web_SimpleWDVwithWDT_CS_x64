@@ -34,20 +34,20 @@ If you are using PDFs and you wish to burn annotations, you must also have a lic
 
 
 ## SDK Dependencies
-This app was built based on 11.5.0.10. It targets .NET Framework 4.6.2 and was created in Visual Studio 2022. However, it's fairly backward compatible as distributed. If you start adding references, you can run into issues if you're using an especially outdated version of DotImage. It should also open and run equally well in Visual Studio 2026 without undue modification.  
+This app was built based on 2026.2.0.0. It targets .NET Framework 4.6.2 and was created in Visual Studio 2022. However, it's fairly backward compatible as distributed. If you start adding references, you can run into issues if you're using an especially outdated version of DotImage. It should also open and run equally well in Visual Studio 2026 without undue modification.  
 
 ### SDK Installed Locally (Default)
 Regardless, it assumes you have installed a valid copy of Atalasoft DotImage in the default location. If you have multiple versions installed, you may want to go to the Project Properties and visit the References tab to adjust the references folder. Defaults point to:  
 
-`C:\Program Files (x86)\Atalasoft\DotImage 11.5\bin\4.6.2\x64`
+`C:\Program Files (x86)\Atalasoft\DotImage 2026.2\bin\4.6.2\x64`
 
 #### Web Resources
-As this is a web application, it also requires our client side web resources. Again, this app was built on 11.5.0.10, thus we've already included the needed resources in the WebDocViewer folder. If you need to back down to a different version, you must ensure both the references and WebDocViewer resources are updated.
+As this is a web application, it also requires our client side web resources. Again, this app was built on 2026.2.0.0, thus we've already included the needed resources in the WebDocViewer folder. If you need to back down to a different version, you must ensure both the references and WebDocViewer resources are updated.
 
 These Resources are distributed with our SDK and can be found under:  
-`C:\Program Files (x86)\Atalasoft\DotImage 11.5\bin\WebResources\WebDocViewer`  
+`C:\Program Files (x86)\Atalasoft\DotImage 2026.2\bin\WebResources\WebDocViewer`  
 
-Additionally, if the resources for the version you're targeting differ from the versions we ship, you must modify the head section of the Default.aspx page accordingly. This is the content that is valid for 11.5.0.x - 11.5.0.10.
+Additionally, if the resources for the version you're targeting differ from the versions we ship, you must modify the head section of the Default.aspx page accordingly. This is the content that is valid for 11.5.0.x - 2026.2.x.
 
 ```html
 <head runat="server">
@@ -100,7 +100,7 @@ You are of course, welcome to convert it to run in a local copy of IIS.
 You must ensure you have it set up for the app pool to run x64 (app pool Advanced Properties and ensure that "Enable 32-bit applications" is **UNCHECKED**).  
 
 You must also copy your licenses from
-`C:\users\YOUR_USERNAME\ApPData\Local\Atalasoft\DotImage 11.5\`
+`C:\users\YOUR_USERNAME\ApPData\Local\Atalasoft\DotImage 2026.2\`
 into the bin directory of the application
 
 Please see the section on licensing above for additional discussion.
@@ -113,7 +113,7 @@ To use this repro just use:
 git clone https://github.com/AtalaSupport/SimpleWDVwithWDT.git SimpleWDVwithWDT
 ```
 
-If you've got DotImage 11.5 installed and licensed, it should just build and run.  
+If you've got DotImage 2026.2 installed and licensed, it should just build and run.  
 
 ## Related documentation
 In addition to this README, the Atalasoft documentation set includes the following:  
