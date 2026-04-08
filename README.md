@@ -13,6 +13,7 @@ Efforts have been made to keep this sample from having "Feature creep". However,
 - There is a commented out updateAllAnnosOnPage() function that provides a stub for how to go about modifying annotations.
 - There is a commented out section at the end that contains several hide() calls. This is how you can remove/hide various individual toolbar elements that you wish to remove from the UI (to say, prevent users from using an ellipse annotation if you don't wish to support ellipse annotations, etc.)  
 
+If you're interested in an app that is more in line with how one might use our WDV / WDT in a production app, please have a look at our [Simple Web Viewing demo](https://github.com/AtalaSupport/DemoGallery_Web_WebViewingDemo_CS_x64)
 
 ## Licensing
 This application as configured, requires at minimum DotImage Document Imaging as well as a license for our PdfReader addon, or a valid eval on the machine where you are building and running.  
@@ -110,7 +111,7 @@ Please see the section on licensing above for additional discussion.
 To use this repro just use:  
 
 ```
-git clone https://github.com/AtalaSupport/SimpleWDVwithWDT.git SimpleWDVwithWDT
+git clone https://github.com/AtalaSupport/DemoGallery_Web_SimpleWDVwithWDT_CS_x64.git SimpleWDVwithWDT
 ```
 
 If you've got DotImage 2026.2 installed and licensed, it should just build and run.  
