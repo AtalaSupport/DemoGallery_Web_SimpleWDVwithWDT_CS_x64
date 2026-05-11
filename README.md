@@ -3,7 +3,7 @@ This is a 64 bit .NET Framework 4.6.2 HTML 5 Web app with minimal Atalasoft refe
 
 It is meant to be used as a quick starting point for repros that utilize our WebDocumentViewer (WDV) and WebDocumentThumbnailer (WDT).    
 
-We have a minimal [SimpleAtalaConsole](https://github.com/AtalaSupport/SimpleAtalaConsole) sample app as well as minimal WebCapture (WingScan) apps for web, and our AdvancedScanToFile is an excellent minimal WinForms app. For WPF, we have WpfAnnotations.  
+We have a minimal [SimpleAtalaConsole](https://github.(mailto:sales@atalasoft.com)/AtalaSupport/SimpleAtalaConsole) sample app as well as minimal WebCapture (WingScan) apps for web, and our AdvancedScanToFile is an excellent minimal WinForms app. For WPF, we have WpfAnnotations.  
 
 Efforts have been made to keep this sample from having "Feature creep". However, we've implemented a "stubbed out" WebDocViewerHandler.ashx where everyting is commented out and commented in terms of what it does and also has sample code showing roughly what the control is doing "automagically" when you use the defaults. We have also added a couple of very useful JavaScript functions that are not absolutely necessary, but come up so often that they're worth including
 
@@ -13,7 +13,7 @@ Efforts have been made to keep this sample from having "Feature creep". However,
 - There is a commented out updateAllAnnosOnPage() function that provides a stub for how to go about modifying annotations.
 - There is a commented out section at the end that contains several hide() calls. This is how you can remove/hide various individual toolbar elements that you wish to remove from the UI (to say, prevent users from using an ellipse annotation if you don't wish to support ellipse annotations, etc.)  
 
-If you're interested in an app that is more in line with how one might use our WDV / WDT in a production app, please have a look at our [Simple Web Viewing demo](https://github.com/AtalaSupport/DemoGallery_Web_WebViewingDemo_CS_x64)
+If you're interested in an app that is more in line with how one might use our WDV / WDT in a production app, please have a look at our [Simple Web Viewing demo](https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_WebViewingDemo_CS_x64)
 
 ## Licensing
 This application as configured, requires at minimum DotImage Document Imaging as well as a license for our PdfReader addon, or a valid eval on the machine where you are building and running.  
@@ -91,7 +91,7 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 
 ### Web Server
 #### IIS Express (Default)
-This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.com/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
+This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.(mailto:sales@atalasoft.com)/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
 
 When running in IIS Express, the default licensing (mentioned previously) should suffice.
 
@@ -111,24 +111,24 @@ Please see the section on licensing above for additional discussion.
 To use this repro just use:  
 
 ```
-git clone https://github.com/AtalaSupport/DemoGallery_Web_SimpleWDVwithWDT_CS_x64.git SimpleWDVwithWDT
+git clone https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_SimpleWDVwithWDT_CS_x64.git SimpleWDVwithWDT
 ```
 
 If you've got DotImage 2026.2 installed and licensed, it should just build and run.  
 
 ## Related documentation
 In addition to this README, the Atalasoft documentation set includes the following:  
-- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.com/Support/APIs-Dev-Guides).
+- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/APIs-Dev-Guides).
 - In addition, you can also refer to the following Atalasoft resources:
-    - [Atalasoft Support](http://www.atalasoft.com/support/)
-    - [Atalasoft Knowledgebase](http://www.atalasoft.com/kb2)
+    - [Atalasoft Support](http://www.atalasoft.(mailto:sales@atalasoft.com)/support/)
+    - [Atalasoft Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2)
 - [WDV Clientside API Reference](https://atalasoft.github.io/web-document-viewer/) applies to the client side (JavaScript) components.
 
 
 ## Getting Help for Atalasoft products
-Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.com/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
+Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
 
-Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.com/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
+Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
 
-Customers who are unable to create a case or call in may [email our Sales Team](email:sales@atalasoft.com).  
+Customers who are unable to create a case or call in may [email our Sales Team](mailto:sales@atalasoft.com).  
 
