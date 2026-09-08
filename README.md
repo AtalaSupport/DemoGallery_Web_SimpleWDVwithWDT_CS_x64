@@ -3,7 +3,7 @@ This is a 64 bit .NET Framework 4.6.2 HTML 5 Web app with minimal Atalasoft refe
 
 It is meant to be used as a quick starting point for repros that utilize our WebDocumentViewer (WDV) and WebDocumentThumbnailer (WDT).    
 
-We have a minimal [SimpleAtalaConsole](https://github.(mailto:sales@atalasoft.com)/AtalaSupport/SimpleAtalaConsole) sample app as well as minimal WebCapture (WingScan) apps for web, and our AdvancedScanToFile is an excellent minimal WinForms app. For WPF, we have WpfAnnotations.  
+We have a minimal [SimpleAtalaConsole](https://github.com/AtalaSupport/SimpleAtalaConsole) sample app as well as minimal WebCapture (WingScan) apps for web, and our AdvancedScanToFile is an excellent minimal WinForms app. For WPF, we have WpfAnnotations.  
 
 Efforts have been made to keep this sample from having "Feature creep". However, we've implemented a "stubbed out" WebDocViewerHandler.ashx where everyting is commented out and commented in terms of what it does and also has sample code showing roughly what the control is doing "automagically" when you use the defaults. We have also added a couple of very useful JavaScript functions that are not absolutely necessary, but come up so often that they're worth including
 
@@ -13,7 +13,7 @@ Efforts have been made to keep this sample from having "Feature creep". However,
 - There is a commented out updateAllAnnosOnPage() function that provides a stub for how to go about modifying annotations.
 - There is a commented out section at the end that contains several hide() calls. This is how you can remove/hide various individual toolbar elements that you wish to remove from the UI (to say, prevent users from using an ellipse annotation if you don't wish to support ellipse annotations, etc.)  
 
-If you're interested in an app that is more in line with how one might use our WDV / WDT in a production app, please have a look at our [Simple Web Viewing demo](https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_WebViewingDemo_CS_x64)
+If you're interested in an app that is more in line with how one might use our WDV / WDT in a production app, please have a look at our [Simple Web Viewing demo](https://github.com/AtalaSupport/DemoGallery_Web_WebViewingDemo_CS_x64)
 
 ## Licensing
 This application as configured, requires at minimum DotImage Document Imaging as well as a license for our PdfReader addon, or a valid eval on the machine where you are building and running.  
@@ -111,7 +111,7 @@ Please see the section on licensing above for additional discussion.
 To use this repro just use:  
 
 ```
-git clone https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_SimpleWDVwithWDT_CS_x64.git SimpleWDVwithWDT
+git clone https://github.com/AtalaSupport/DemoGallery_Web_SimpleWDVwithWDT_CS_x64.git SimpleWDVwithWDT
 ```
 
 If you've got DotImage 2026.2 installed and licensed, it should just build and run.  
