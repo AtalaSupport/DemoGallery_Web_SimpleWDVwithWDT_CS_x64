@@ -91,7 +91,7 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 
 ### Web Server
 #### IIS Express (Default)
-This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.(mailto:sales@atalasoft.com)/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
+This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.com/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
 
 When running in IIS Express, the default licensing (mentioned previously) should suffice.
 
@@ -118,17 +118,17 @@ If you've got DotImage 2026.2 installed and licensed, it should just build and r
 
 ## Related documentation
 In addition to this README, the Atalasoft documentation set includes the following:  
-- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/APIs-Dev-Guides).
+- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.com/Support/APIs-Dev-Guides).
 - In addition, you can also refer to the following Atalasoft resources:
-    - [Atalasoft Support](http://www.atalasoft.(mailto:sales@atalasoft.com)/support/)
-    - [Atalasoft Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2)
+    - [Atalasoft Support](http://www.atalasoft.com/support/)
+    - [Atalasoft Knowledgebase](http://www.atalasoft.com/kb2)
 - [WDV Clientside API Reference](https://atalasoft.github.io/web-document-viewer/) applies to the client side (JavaScript) components.
 
 
 ## Getting Help for Atalasoft products
-Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
+Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.com/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
 
-Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
+Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.com/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
 
 Customers who are unable to create a case or call in may [email our Sales Team](mailto:sales@atalasoft.com).  
 
